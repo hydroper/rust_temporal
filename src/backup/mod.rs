@@ -1,5 +1,5 @@
 /*!
-The Rialight temporal API for working with date/time.
+The temporal API for working with date/time.
 
 This API follows a convention of using types whose names start
 with "Plain" (like `PlainDate`, `PlainTime` and `PlainDateTime`)
