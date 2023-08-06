@@ -12,3 +12,13 @@ is resolved.
 Several important concepts are explained elsewhere:
 [exact time, wall-clock time, time zones, DST, handling ambiguity, and more][docs::ambiguity].
 */
+
+pub mod docs;
+
+pub(crate) mod core;
+
+mod error;
+pub use error::RangeError;
+
+mod instant;
+pub use instant::Instant;
