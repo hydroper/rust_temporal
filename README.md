@@ -1,8 +1,8 @@
 # Temporal
 
-Work with date-times using a called temporal API. It is based on a TC39 proposal. Cross-platform and designed for the Rust language.
+> **NOTE:** Just use the [`chrono`](https://crates.io/crates/chrono) crate instead. This crate hasn't been done and the idea is dead, since the goal was just to support an API similiar to temporal, which may have no benefit compared to `chrono`.
 
-> **NOTE:** Currently unavailable and under development.
+Work with date-times using a called temporal API. It is based on a TC39 proposal. Cross-platform and designed for the Rust language.
 
 ## Roadmap
 
